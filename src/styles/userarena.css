@@ -1,0 +1,115 @@
+.userdetailcontainer {
+  width: 300px;
+  height: 90px;
+  margin-top: 20px;
+}
+.userimage {
+  width: 70px;
+  height: 70px;
+  float: left;
+  border-radius: 50%;
+}
+.username {
+  margin: 0;
+  margin-top: 5px;
+  float: left;
+  font-weight: bold;
+}
+.useremail {
+  margin: 0;
+  float: left;
+}
+.ordercontainer {
+  width: 100%;
+  display: inline-block;
+  margin: 2px;
+  border-bottom: 1px solid grey;
+}
+.orderimg {
+  float: left;
+  border: 5px solid wheat;
+}
+.orderid {
+  font-size: 11px;
+  float: left;
+  color: grey;
+}
+.orderprice {
+  font-size: 11px;
+  color: grey;
+  float: right;
+}
+.orderdesccontainer {
+  /* display: flow-root;w */
+  width: 70%;
+  margin-left: 10%;
+}
+.producticon {
+  float: right;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.orderdesc {
+  font-weight: bold;
+  margin: 0;
+  font-size: 15px;
+  float: left;
+  width: 40%;
+  margin-top: 10px;
+  text-align: left;
+  margin-top: 2%;
+}
+.deliverytime {
+  margin: 3px;
+  font-size: 14px;
+  float: left;
+  margin-top: 6%;
+}
+.pendingbuton {
+  margin: 0;
+  border-radius: 5%;
+  border: none;
+  width: 80px;
+  height: 20px;
+  margin-top: 4%;
+}
+.darkcolor {
+  background-color: rgb(41, 34, 34);
+  color: white;
+}
+.darkcolor {
+  background-color: grey;
+  color: black;
+}
+.ordertitle {
+  float: left;
+}
+.tabuserarea {
+  width: 80%;
+  margin-left: 10%;
+}
+.tabprofilefirs {
+  display: flex;
+}
+.btncontaineruser {
+  width: 100%;
+}
+@media only screen and (max-width: 420px) {
+  .orderdesccontainer {
+    margin-left: 25%;
+  }
+  .deliverytime {
+    font-size: 11px;
+  }
+  .orderdesc {
+    width: 40%;
+    font-size: 10px;
+  }
+  .pendingbuton {
+    margin-top: 14%;
+  }
+  .userdetailcontainer {
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+}

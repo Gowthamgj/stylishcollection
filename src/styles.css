@@ -1,0 +1,282 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  margin: 0;
+}
+.clothes {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid red;
+  margin: 20px;
+}
+.clothcontainer {
+  width: auto;
+  height: 100px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.imageone {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 70px;
+}
+.overlayButtonsContainer {
+  position: relative;
+  z-index: 1;
+  margin-top: 30%;
+  margin-left: 45%;
+}
+.overlayButtons {
+  display: block;
+  width: fit-content;
+  margin: 10px;
+  background-color: whitesmoke;
+  padding: 5px;
+  font-size: 20px;
+}
+.homeoverlaystyleguide {
+  position: absolute;
+  color: white;
+  left: 45%;
+  top: 70%;
+}
+.overlaytext {
+  color: black;
+}
+.highlight {
+  color: rgba(225, 0, 0, 1);
+}
+.darkcolleredbutton {
+  background-color: rgba(225, 0, 0, 1);
+  color: white;
+  width: fit-content;
+  padding: 20px;
+  display: inherit;
+}
+.browse {
+  margin-top: 10%;
+}
+.browsetabbrowse {
+  margin-bottom: 50%;
+}
+.mobileimgcontainer {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.businessman {
+  height: 542px;
+}
+.imagetwocontainer {
+  position: relative;
+  width: 100%;
+}
+.secondimgcontainer {
+  width: 100%;
+  height: 45px;
+}
+.styleguide {
+  background: url("./images/neck.png");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.styleguidecontainer {
+  position: relative;
+}
+.overlaystyleguide {
+  position: absolute;
+  top: 23%;
+  left: 40%;
+  color: white;
+}
+.overlaystyleguide1 {
+  position: absolute;
+  top: 23%;
+  left: 40%;
+  color: white;
+}
+.location {
+  position: absolute;
+  bottom: 0%;
+  left: 80%;
+}
+.locbutton {
+  font-size: 16px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin: 2px;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+}
+.starcontainer {
+  float: right;
+  margin-right: 10px;
+}
+.star {
+  color: yellow;
+}
+.testimonialname {
+  float: left;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+.comments {
+  padding-bottom: 20px;
+  text-align: left;
+  margin-left: 10px;
+}
+.testimonialContainer {
+  width: 80%;
+  position: relative;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px white;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+.testimonials {
+  background-color: #f9f9f9;
+}
+.collectioncarousel {
+  width: 100%;
+  height: 100%6;
+  overflow: auto;
+  white-space: nowrap;
+}
+.collectioncarousel::-webkit-scrollbar {
+  display: none;
+}
+.carouselslide {
+  margin: 20px;
+  display: inline-block;
+}
+.price {
+  color: rgba(225, 0, 0, 1);
+}
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+.separator::before {
+  margin-left: 30px;
+  margin-right: 0.25em;
+}
+.separator::after {
+  margin-left: 0.25em;
+  margin-right: 30px;
+}
+.testimonialIcon {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.secondimgoverlayButtons {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  display: block;
+  width: fit-content;
+  margin: 10px;
+  background-color: whitesmoke;
+  padding: 5px;
+  font-size: 20px;
+}
+.secondimgoverlayButtons1 {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  display: block;
+  width: fit-content;
+  margin: 10px;
+  background-color: whitesmoke;
+  padding: 5px;
+  font-size: 20px;
+}
+.secondimgleftrow {
+  position: relative;
+}
+@media only screen and (max-width: 420px) {
+  .overlayButtonsContainer {
+    margin-top: 75%;
+  }
+  .homeoverlaystyleguide {
+    left: 40%;
+    top: 50%;
+  }
+  .browse {
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  .overlayButtonsContainer {
+    margin-top: 0%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .clothes {
+    margin: 10px;
+  }
+  .overlaystyleguide {
+    left: 35%;
+    top: 38%;
+  }
+  .overlaystyleguide1 {
+    left: 10%;
+    top: 15%;
+  }
+  .overlayButtons {
+    width: 100px;
+    font-size: 10px;
+  }
+  .darkcolleredbutton {
+    font-size: 10px;
+  }
+  .imageone {
+    width: 100%;
+    height: 100%;
+  }
+  .location {
+    left: 50%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .homeoverlaystyleguide {
+    left: 40%;
+    top: 60%;
+  }
+  .mobileimgcontainer {
+    height: 642px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .overlaystyleguide {
+    top: 60%;
+  }
+}

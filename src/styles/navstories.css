@@ -1,0 +1,42 @@
+.navstoriescontainer {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  margin-top: 4%;
+  /* margin-left: 2%; */
+}
+.iconcontainer {
+  display: flex;
+  width: 80%;
+}
+.naviconstories {
+  width: 50px;
+  height: 50px;
+  left: 10px;
+  border-radius: 50%;
+  margin-left: 11px;
+}
+.iconhighlighborder {
+  border: 1px solid rgba(225, 0, 0, 1);
+}
+.hidenicon {
+  display: none;
+}
+.iconrow {
+  margin-left: 3%;
+}
+.lefticon,
+.righticon {
+  width: 10%;
+  margin-top: 4%;
+}
+@media only screen and (max-width: 360px) {
+  .naviconstories {
+    margin-left: 3%;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .naviconstories {
+    margin-left: 1%;
+  }
+}
